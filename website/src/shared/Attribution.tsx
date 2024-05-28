@@ -23,8 +23,10 @@ export const Attribution = () => {
         color="textSecondary"
         align="center"
       >
-        {t('attribution.createdBy')}{' '}
-        <Link href="https://github.com/jhaals/yopass">Johan Haals</Link>
+        {t('attribution.repository')}{' '}
+        <Link href="https://github.com/ncostamagna/yopass">ncostamagna/yopass</Link>
+        {' '}{t('attribution.fork')}{' '}
+        <Link href="https://github.com/jhaals/yopass">jhaals/yopass</Link>
       </Typography>
       {t('attribution.translatorName') && translationAttribution()}
     </Container>

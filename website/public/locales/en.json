@@ -62,7 +62,9 @@
     "createdBy": "Created by",
     "translatedBy": "Translated by",
     "translatorName": "",
-    "translatorLink": ""
+    "translatorLink": "",
+    "repository": "The repository is at",
+    "fork": ", but it is a fork of"
   },
   "expiration": {
     "legend": "The encrypted message will be deleted automatically after",
